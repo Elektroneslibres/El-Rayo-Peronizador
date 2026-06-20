@@ -24,16 +24,14 @@ Sintetizador granular para [monome norns](https://monome.org/norns/), pensado pa
 ### Desde Maiden (recomendado)
 En la consola de Maiden (`matron`), escribí:
 ```lua
-;install https://github.com/TU-USUARIO/El_Rayo_Peronizador
+;install https://github.com/Elektroneslibres/El_Rayo_Peronizador
 ```
 
 ### Manual
 1. Copiá `El_Rayo_Peronizador.lua` a `~/dust/code/El_Rayo_Peronizador/`
-2. Copiá tu propio sample a `~/dust/audio/marcha_peronista.wav`
+2. Copiá `marcha_peronista.wav` a `~/dust/audio/`
 
-> ⚠️ **Importante**: el sample de audio **no viene incluido** en este repositorio por una cuestión de derechos/tamaño. Tenés que conseguir tu propia versión de la Marcha Peronista (o cualquier sample que prefieras) y nombrarla exactamente `marcha_peronista.wav`, guardada en `~/dust/audio/`.
->
-> Si querés usar otro sample, simplemente reemplazá ese archivo — cualquier WAV mono a 48kHz funciona bien.
+> El sample de la Marcha Peronista viene incluido en este repositorio. Si preferís usar otro audio, simplemente reemplazá ese archivo manteniendo el mismo nombre — cualquier WAV mono a 48kHz funciona bien.
 
 ---
 
@@ -96,7 +94,7 @@ Si conectás un Arc, se detecta automáticamente al cargar el script.
 
 ## 🙏 Créditos
 
-Desarrollado por **elektrones_libres**, con asistencia de Claude (Anthropic).
+Desarrollado por **elektrones_libres**
 
 Engine granular: [Glut](https://github.com/artfwo/glut) por artfwo.
 
