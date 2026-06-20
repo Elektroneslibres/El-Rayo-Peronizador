@@ -24,7 +24,7 @@ Sintetizador granular para [monome norns](https://monome.org/norns/), pensado pa
 ### Desde Maiden (recomendado)
 En la consola de Maiden (`matron`), escribí:
 ```lua
-;install https://github.com/Elektroneslibres/El_Rayo_Peronizador
+;install https://github.com/Elektroneslibres/El-Rayo-Peronizador
 ```
 
 ### Manual
